@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jockey’s Convention Center</title>
+    <link rel="icon" href="./../asset/flat-color-icons_conference-call.png">
+    <link rel="stylesheet" href="./../public/css/home.css" />
+    <link rel="stylesheet" href="./../public/css/contactus.css" />
+    <script src="./../javascript/contactus.js" defer></script>
+
+    <!-- Feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <div class="navbarleft">
+          <img
+            class="logo"
+            src="./../asset/flat-color-icons_conference-call.png"
+            alt=""
+          />
+          <div class="webname">
+            <p>Jockey’s Conference Center</p>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="links">
+            <a href="homepage.html">Home</a>
+            <a href="event.html">Event</a>
+            <a href="pricelist.html">Pricelist</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+          </div>
+          <a href="#" id="hamburger"><i data-feather="menu"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Java Script Hamburger -->
+    <script src="./../javascript/hamburger.js"></script>
+    <div class="tuing">
+      <div class="contactingfo">
+        <p>Contact Information</p>
+        <form action="" id="form" method="get">
+          <!-- <div class="mules"> -->
+          <div class="input">
+            <div class="hehe">
+              <label for="name">Full Name</label>
+              <span id="nameError"></span>
+            </div>
+            <input type="text" name="name" id="name" value="" />
+          </div>
+          
+          <div class="input">
+            <div class="hehe">
+              <label for="email">Email</label>
+              <span id="emailError"></span>
+            </div>
+            <input type="email" name="email" id="email" value="" />
+          </div>
+          
+          <div class="input">
+            <div class="hehe">
+              <label for="phone">Phone Number</label>
+              <span id="phoneError"></span>
+            </div>
+            <input
+            type="tel"
+            name="phone"
+            id="phone"
+            value=""
+            />
+          </div>
+          
+          <div class="inputmessage">
+            <div class="hehe">
+              <label for="message">Message</label>
+              <span id="messageError"></span>
+            </div>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          
+          <div class="checkbox">
+            <div class="hehe">
+              <label for="checkbox">Prefered contact method</label>
+              <span id="checkboxError"></span>
+            </div>
+            <div class="option">
+              <div class="box">
+                <input
+                  type="checkbox"
+                  name="Email-checkbox"
+                  id="email-checkbox"
+                  value=""
+                />
+                <label for="email-checkbox">Email</label>
+              </div>
+
+              <div class="box">
+                <input
+                  type="checkbox"
+                  name="Phone Number"
+                  id="phone-checkbox"
+                  value=""
+                />
+                <label for="phone-checkbox">Phone Number</label>
+              </div>
+            </div>
+          </div>
+          <div class="submit">
+            <button class="button" onclick="validasi(event)" type="submit" value="Submit" >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="footerleft">
+          <img
+            class="logofooter"
+            src="./../asset/flat-color-icons_conference-call.png"
+            alt=""
+          />
+          <div class="words">
+            <p class="title">Jockey’s Conference Center</p>
+            <p class="slogan">the Perfect Event Destination since 1974</p>
+          </div>
+        </div>
+        <div class="footerright">
+          <div class="foterlr">
+            <p class="title">Quick Links</p>
+            <div class="list">
+              <li><a href="">Home</a></li>
+              <li><a href="">Event</a></li>
+              <li><a href="">Pricelist</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+            </div>
+          </div>
+          <div class="footerrr">
+            <p class="alamat">
+              Arena JIEXPO Kemayoran<br />Jakarta Pusat 10620, Indonesia
+            </p>
+            <div class="phone">
+              <img src="./../asset/c.png" alt="" />
+              <p class="no">+62 21 26645 000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

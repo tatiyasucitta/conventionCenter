@@ -1,0 +1,516 @@
+.navbar {
+  background-color: #9aab64;
+}
+.links a {
+  color: white;
+}
+.webname {
+  color: white;
+}
+#hamburger {
+  color: white;
+}
+
+.contactcontent {
+  background-color: #fcfff4;
+}
+
+.content {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.history {
+  padding: 85px 0;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./../../asset/Group\ 30_crop.png);
+}
+
+.history .content {
+  width: 70%;
+}
+
+.history .content h3 {
+  color: #9aab64;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.history .content p {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  padding: 30px 0;
+}
+
+.fasilitas {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./../../asset/Group\ 46.png);
+  padding: 50px 0;
+}
+
+.title {
+  color: #9aab64;
+  font-weight: 500;
+  font-size: 32px;
+}
+.fasilitas .title .content{
+  width:80%;
+  margin-inline:auto;
+}
+.first {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 20px; */
+}
+
+.first .desc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.first .desc img {
+  width: 647px;
+  height: 364px;
+}
+
+.aboutus-words {
+  width: 800px;
+  color: black;
+  font-weight: 400;
+  font-size: 17px;
+}
+.second {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: none;
+  gap: 50px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.third {
+  /* height:auto; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.third .desc {
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 50px;
+}
+
+.third .desc img {
+  width: 539px;
+  height: 364px;
+}
+
+.award-section {
+  background-image: url("./../../asset/Group 31.png");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.award-section .content {
+  width: 80%;
+  margin-inline: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 33px;
+  padding-top: 50px;
+  color: white;
+}
+
+.award-section .content h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.award-section .content p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 446px;
+}
+
+.awardsstars {
+  padding: 50px 0;
+  width: 60%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.star {
+  width: 514px;
+}
+
+.stars {
+  display: flex;
+  gap: 40px;
+}
+
+.startext .uppercontent{
+  font:20px;
+}
+.startext .lowercontent{
+  font:15px;
+}
+@media screen and (max-width: 1440px ){
+  .navbar {
+    background-color: #9aab64;
+  }
+  .links a {
+    color: white;
+  }
+  .webname {
+    color: white;
+  }
+  #hamburger {
+    color: white;
+  }
+  
+  .contactcontent {
+    background-color: #fcfff4;
+  }
+  
+  .content {
+    width: 80%;
+    margin-inline: auto;
+  }
+  
+  .history {
+    padding: 1.3194444444444444vw 0;
+    width: 100%;
+    height:39vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./../../asset/Group\ 30.png);
+  }
+  
+  .history .content {
+    width: 80%;
+  }
+  
+  .history .content h3 {
+    color: #9aab64;
+    font-weight: 700;
+    font-size: 1.6666666666666667vw;
+  }
+  
+  .history .content p {
+    color: black;
+    font-weight: 400;
+    font-size: 1.3888888888888888vw;
+    font-style: normal;
+  }
+  
+  .fasilitas {
+    width: 100%;
+    height:120vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./../../asset/Group\ 46.png);
+    padding:0.6944444444444444vw 0;
+  }
+  
+  .title {
+    color: #9aab64;
+    width:100%;
+    display: flex;
+    align-items: start;
+    font-weight: 500;
+    font-size: 2.2222222222222223vw;
+    }
+
+  .fasilitas .title .content{
+    width:80%;
+    margin-inline:auto;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .first .desc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.6944444444444444vw;
+  }
+  
+  .first .desc img {
+    width: 44.93055555555556vw;
+    height: 25.27777777777778vw;
+  }
+
+  .aboutus-words {
+    width: 39.375vw;
+    color: black;
+    font-weight: 400;
+    font-size: 1.15vw;
+  }
+  .second {
+    width: 100%;
+    padding: 3vw 0;
+    display: flex;
+    /* justify-content: none; */
+    /* flex-wrap: wrap; */
+  }
+  
+  .left {
+    width:40.388888888888886vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6944444444444444vw;
+  }
+  
+  .right {
+    width:34.15277777777778vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6944444444444444vw;
+  }
+  
+  .third {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6944444444444444vw;
+  }
+  
+  .third .desc {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 3.4722222222222223vw;
+  }
+  
+  .third .desc img {
+    width: 46.041666666666664vw;
+    height: 25.90277777777778vw;
+  }
+  
+  .award-section {
+    background-image: url("./../../asset/Group 31.png");
+    height: 40vw;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .award-section .content {
+    margin-inline: auto;
+    width: 80%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.2916666666666665vw;
+    padding-top: 3.4722222222222223vw;
+    color: white;
+  }
+  
+  .award-section .content h1 {
+    font-size: 3.8194444444444446vw;
+    font-weight: 500;
+  }
+  
+  .award-section .content p {
+    font-size: 1.3888888888888888vw;
+    font-weight: 400;
+    width: 30.97222222222222vw;
+  }
+  
+  .awardsstars {
+    padding: 3.4722222222222223vw 0;
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.3888888888888888vw;
+  }
+  
+  .star {
+    width: 35.69444444444444vw
+    ;
+  }
+  
+  .stars {
+    display: flex;
+    gap: 2.7777777777777777vw;
+  }
+  .startext .uppercontent{
+    font:1.3888888888888888vw;
+  }
+  .startext .lowercontent{
+    font:1.0416666666666665vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .links {
+    background-color: #9aab64;
+  }
+
+  .history {
+    height: 40vw;
+    padding: 3vw 0;
+  }
+
+  .history .content h3 {
+    font-size: 2vw;
+  }
+
+  .history .content p {
+    font-size: 1.5vw;
+    padding: 1.75vw 0;
+  }
+
+  .fasilitas .content img {
+    width: 40vw;
+    height: 25.5vw;
+  }
+
+  .title {
+    font-size: 2.3vw;
+  }
+
+  .first {
+    gap: 2.5vw;
+  }
+
+  .first .desc {
+    display: flex;
+    gap: 1.25vw;
+  }
+
+  .first .desc img {
+    width:40.875vw;
+    height: 25.5vw;
+  }
+
+  .aboutus-words {
+    width: 40.875vw;
+    height: 25.5vw;
+    font-size:1.2vw;
+  }
+  .second {
+    padding: 2.5vw 0;
+    height:55vw;
+    gap: 2.5vw;
+  }
+
+  .left {
+    gap: 1.25vw;
+  }
+  .right {
+    gap: 1.25vw;
+  }
+  .third {
+    gap: 0.5vw;
+  }
+  .third .desc {
+    gap: 2.25vw;
+    display: flex;
+  }
+
+  .third .desc img {
+    width:40.875vw;
+    height: 25.5vw;
+  }
+
+  .award-section {
+    width: 100vw;
+    height: 43.625vw;
+  }
+
+  .award-section .content {
+    height: 45vw;
+    gap: 4.125vw;
+  }
+
+  .award-section .content h1 {
+    font-size: 3.875000000000001vw;
+  }
+
+  .award-section .content p {
+    font-size: 1.5vw;
+    width: 55.75vw;
+  }
+
+  .awardsstars {
+    padding: 4.25vw 0;
+    gap: 1.5vw;
+  }
+
+  .star {
+    width: 30.25vw;
+  }
+
+  .stars {
+    gap: 5vw;
+  }
+}
+@media screen and (max-width: 430px){
+  .history{
+    /* padding top: 100px; */
+    height: 40.11627906976744vw;
+    margin-bottom: 23vw;
+  }
+  .history .content p{
+    font-size: 2.1vw;
+  }
+  .fasilitas {
+    height:130vw;
+    /* padding: 6.25vw 0; */
+  }
+  .award-section {
+    /* margin-top: 40vw; */
+    width: 100vw;
+    height: 45vw;
+  }
+  .award-section .content{
+    display: flex;
+    gap: 5px;
+    height: 45vw;
+  }
+  .award-section .content h1 {
+    font-size: 3.5vw;
+  }
+
+  .award-section .content p {
+    font-size:1.5vw;
+    width: 55.75vw;
+  }
+}

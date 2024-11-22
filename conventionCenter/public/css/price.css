@@ -1,0 +1,333 @@
+.meeting {
+  background-image: url("./../../asset/meeting.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 35vw;
+}
+
+.meeting .container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6vw;
+  color: white;
+}
+
+.meeting .container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.meeting .container h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #929f6a;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.meeting .deskripsi h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.meeting .deskripsi ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 2vh;
+}
+
+.meeting .deskripsi ul li {
+  list-style-type: disc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.wedding {
+  background-image: url("./../../asset/Group 82.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35vw;
+  width: 100%;
+}
+
+.wedding .container {
+  width: 90%;
+  height: 35vw;
+  padding: 5vh 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.4vw;
+}
+.wedding .container h2 {
+  font-family: "Lora", sans-serif;
+  color: #4e4e4e;
+  font-size: 3.3333333333333335vw;
+  font-weight: 400;
+  line-height: 1.305555555555555vw;
+}
+
+.wedding .container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 400;
+  color: #a3876c;
+  line-height: 25px;
+}
+
+.wedding .container .deskripsi {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+.wedding .deskripsi ul {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 3.5vh;
+}
+
+.wedding .deskripsi ul li {
+  list-style-type: disc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.wedding .deskripsi p {
+  width: 244px;
+  color: #a3876c;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.exhibition {
+  background-image: url("./../../asset/Group 83.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.exhibition .container {
+  width: 100%;
+  margin-inline: auto;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 30px;
+}
+
+.exhibition .container h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #6a7c32;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.exhibition .container h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4e4e4e;
+}
+
+.exhibition .container .wordsexhi p {
+  width:355px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.exhibition .container .wordsexhi{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.exhibition .deskripsi ul {
+  width:355px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 3.5vh;
+}
+
+.exhibition .deskripsi ul li {
+  list-style-type: disc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+  .meeting {
+    width: 100%;
+    height: 55.55vw;
+  }
+  .meeting .container {
+    display: flex;
+    /* height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    gap: 1.3vw;
+    /* color: white; */
+  }
+  .meeting .container h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+  }
+  
+  .meeting .container h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #929f6a;
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  
+  .meeting .deskripsi h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6vw;
+    font-weight: 700;
+    /* margin-bottom: 5px; */
+  }
+  
+  .meeting .deskripsi ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    padding-left: 2vh;
+  }
+  
+  .meeting .deskripsi ul li {
+    list-style-type: disc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6vw;
+    font-weight: 400;
+  }
+/*   
+  .wedding {
+    width:785px;
+    object-fit:cover;
+    height:auto;
+  }
+   */
+   .wedding .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0vh 0;
+    gap: 1vw;
+    width: 95%;
+    /* height:35vw; */
+  }
+  .wedding .container h2 {
+    font-family: "Lora", sans-serif;
+    color: #4e4e4e;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 2vw;
+  }
+  
+  .wedding .container h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    color: #a3876c;
+    line-height: 3.125vw;
+  }
+  
+  .wedding .container .deskripsi {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5vw;
+  }
+  
+  .wedding .deskripsi ul {
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vw;
+    padding-left:4.375vw;
+  }
+  
+  .wedding .deskripsi ul li {
+    list-style-type: disc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+  }
+  
+  .wedding .deskripsi p {
+    padding-top:3.125vw;
+    width: 26vw;
+    color: #a3876c;
+    font-size: 1.2vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+  
+  .exhibition .container {
+    padding: 1.4vw 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 0.75vw;
+  }
+  
+  .exhibition .container h2 {
+    font-size: 2.5vw;
+  }
+  
+  .exhibition .container h3 {
+    font-size: 1.5vw;
+  }
+  
+  .exhibition .container .wordsexhi p {
+    width:24.375vw;
+    line-height: 3.7vw;
+    font-family: "Montserrat", sans-serif;
+    /* line-height: 2vw; */
+    font-size: 1.5vw;
+    font-weight: 400;
+  }
+  .exhibition .container .wordsexhi{
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vw;
+  }
+  .exhibition .deskripsi ul {
+    width:22.375vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding-left: 1vh;
+  }
+  
+  .exhibition .deskripsi ul li {
+    width:20.375vw;
+    list-style-type: disc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    font-weight: 400;
+  }
+
+}
+
